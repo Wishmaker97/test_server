@@ -1,2 +1,6 @@
 # Environments
 venv
+.venv
+
+#remove pycache
+__pycache__
