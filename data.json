@@ -1,11 +1,11 @@
 {
     "meter_list": [
-        {"id": "Smart_meter_2" , "serial_number": "888882107637"}
+        {"id": "Smart_meter_2" , "serial_number": "888882107616"}
     ],
     "ntp_server": "0.hk.pool.ntp.org",
     "firmware_version":"V1.0",
     "client_id": "NorthPointIndustrialBuilding",
-    "pi_hub_id": "piHub01",
-    "mqtt": {"broker": "127.0.0.1", "port" : 1883, "client_id": "testing-piHub01"},
-    "update_scheduler_cronjob": "0 0 1 ? * * *"
+    "pi_hub_id": "57353104814745",
+    "mqtt": {"broker": "192.168.1.38", "port" : 1883, "client_id": "testing-piHub01"},
+    "update_scheduler_cronjob": "*/15 * * * *"
   }
